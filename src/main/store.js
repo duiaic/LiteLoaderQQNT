@@ -21,7 +21,7 @@ function showErrorDialog(title, message) {
 function getDestPath(manifest_text) {
     const { slug } = JSON.parse(manifest_text);
     let dest_path = path.join(LiteLoader.path.plugins, slug);
-    if (slug in LiteLoader.plugins) LiteLoader.api.plugin.delete(slug, false, false);
+    if (slug in LiteLoader.plugins) LiteLoader.api.plugin.delete(slug, [false, false], false);
     if (fs.existsSync(dest_path)) dest_path += `_${Date.now()}`;
     return dest_path;
 }
