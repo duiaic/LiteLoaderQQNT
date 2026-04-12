@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![GitHub release](https://img.shields.io/github/v/release/LiteLoaderQQNT/LiteLoaderQQNT?logo=github)](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases)
-[![Follow on Telegram](https://img.shields.io/badge/Follow-Telegram-blue?logo=telegram)](https://t.me/LiteLoaderQQNT_Channel)
+[![Follow on Telegram](https://img.shields.io/badge/Follow-Telegram-blue?logo=telegram)](https://t.me/LiteLoaderQQNT)
 
 > 轻量 · 简洁 · 开源 · 福瑞
 
@@ -29,7 +29,11 @@ LiteLoaderQQNT 是 QQNT 的插件加载器，一般在 QQNT 的环境内简称�
 
 ### 在 Windows 上绕过 QQNT 文件校验
 
-请根据你的操作系统架构在 Telegram 群内下载 `dbghelp_*.dll` 文件，将其重命名为 `dbghelp.dll` 后放入 `QQ.exe` 同级目录下。
+请根据你的操作系统架构在 [Telegram 群](https://t.me/LiteLoaderQQNT)内下载 `dbghelp_*.dll` 文件，将其重命名为 `dbghelp.dll` 后放入 `QQ.exe` 同级目录下。
+
+> [!NOTE]
+> 加群前请先查看群简介。
+> 加群时请查看验证机器人 [NeoAuthBot](https://t.me/NeoAuthBot) 的消息
 
 ### 修改文件以安装
 1. 转到 QQNT 安装目录。以 `9.9.21-38711` 为例，路径为 `QQNT\versions\9.9.21-38711（取决于你的版本）\resources\app`
